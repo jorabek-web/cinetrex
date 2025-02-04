@@ -40,7 +40,7 @@ export const PageModal = ({ login, setShowModal }) => {
 
         const user = resultUser.find(user => user.email === loginData.emailOrUSername || user.userName === loginData.emailOrUSername && user.password === loginData.password) || { status: "Not User" }
 
-        if (user.status === "Not User" && loginData.emailOrUSername == "" && loginData.password == "") {
+        if (user.status === "Not User" || loginData.emailOrUSername == "" && loginData.password == "") {
             alert("User not found!, create new user")
             setLoginData(initialLoginData)
         } else {
