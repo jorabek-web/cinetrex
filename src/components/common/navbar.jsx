@@ -1,10 +1,18 @@
 import { useState } from "react";
 import { Container } from "./container";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Navbar = ({ setLogin, setShowModal, showModal }) => {
+  const [logout, setLogout] = useState(false) 
+  const navigate = useNavigate()
 
   const [user, setUser] = useState(JSON.parse(localStorage.getItem('user-data')) || '');
+
+  function getLogout () {
+    localStorage.removeItem('user-data')
+    localStorage.removeItem('is-logged')
+    navigate("/")
+  }
 
   return (
     <>
@@ -18,9 +26,12 @@ export const Navbar = ({ setLogin, setShowModal, showModal }) => {
           <img src="/assets/svgicons/logo.svg" alt="img" onClick={() => setShowModal(true)} className="cursor-pointer" />
           )}
           {localStorage.getItem("is-logged") === "true" ?
-            (<div className="flex items-center">
+            (<div className="flex items-center relative cursor-pointer" onClick={() => setLogout(!logout)}>
               <span className="text-white text-[24px] mr-2">{user?.userName}</span>
-              <img src="/assets/images/avatar.png" alt="User Avatar" className="w-8 h-8 " />
+              <img src="/assets/images/avatar.png" alt="User Avatar" className="w-8 h-8 rounded-full" />
+              {logout && (
+                <button className="absolute top-8 left-0 w-20 h-10 bg-white rounded-md" onClick={getLogout}>Logout</button>
+              )}
             </div>
             ) : (
               !showModal && (

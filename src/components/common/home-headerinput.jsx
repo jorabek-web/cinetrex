@@ -1,11 +1,13 @@
+import { useNavigate } from "react-router-dom"
 
 
 
 export const HomeHeaderInput = ({ genres, setGenres }) => {
+  const navigate = useNavigate()
 
   const getDeleteGenres = (deleteGenre) => {
    if (genres.length == 1) {
-    location.reload()
+    navigate("/")
    } else { 
     setGenres(genres.filter(genre => genre !== deleteGenre))
    }
