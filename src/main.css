@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Amaranth", serif;
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #b11226;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+}

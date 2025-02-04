@@ -1,0 +1,463 @@
+{
+  "users": [
+    {
+      "id": "fb7b",
+      "userName": "jorabek",
+      "email": "jorabek@gmail.com",
+      "password": "jorabek1234"
+    },
+    {
+      "id": "916f",
+      "userName": "akbarali",
+      "email": "akbarali@gmail.com",
+      "password": "akbarali1234"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Oppenheimer",
+      "rating": 8.6,
+      "time": 180,
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.h1RWD6yY8Y_aWhgTuYFTMgHaK9&pid=Api",
+      "countries": [
+        "United States",
+        "United Kingdom"
+      ],
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "release": "2023-07-21",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "2",
+      "title": "Barbie",
+      "rating": 7,
+      "time": 114,
+      "description": "Barbie and Ken live in Barbie Land until a series of events leads them to travel to the real world.",
+      "imgUrl": "https://tse2.mm.bing.net/th?id=OIP._5gOl_ukFZvn_pAKYjAbTAHaJQ&pid=Api",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Musical"
+      ],
+      "release": "2023-07-21",
+      "director": "Greta Gerwig",
+      "cast": [
+        "Margot Robbie",
+        "Ryan Gosling"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "3",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "rating": 8.7,
+      "time": 140,
+      "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
+      "imgUrl": "https://preview.redd.it/new-poster-for-spider-man-across-the-spider-verse-v0-wqvynw4xjnya1.jpg?auto=webp&s=7f425d5370561917699101e6fcd099a59623999d",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "release": "2023-06-02",
+      "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+      "cast": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Oscar Isaac"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "4",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "rating": 7.6,
+      "time": 150,
+      "description": "Still reeling from the loss of Gamora, Peter Quill must rally his team to defend the universe and protect one of their own. A mission that, if not completed successfully, could very well lead to the end of the Guardians as we know them.",
+      "imgUrl": "https://www.themoviedb.org/t/p/original/whfoSVaiR3TT7D2RDL8lfeL9I1a.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "release": "2023-05-05",
+      "director": "James Gunn",
+      "cast": [
+        "Chris Pratt",
+        "Zoe Saldaña",
+        "Dave Bautista"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "5",
+      "title": "John Wick: Chapter 4",
+      "rating": 7.8,
+      "time": 169,
+      "description": "John Wick uncovers a path to defeating the High Table. But before he can earn his freedom, Wick must face a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+      "imgUrl": "https://m.media-amazon.com/images/I/91NpGSlvlKL._AC_UL960_QL65_.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "release": "2023-03-24",
+      "director": "Chad Stahelski",
+      "cast": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsgård"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "6",
+      "title": "The Super Mario Bros. Movie",
+      "rating": 7.1,
+      "time": 92,
+      "description": "A plumber named Mario travels through an underground labyrinth with his brother Luigi to rescue a captured princess.",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.fxDUMakGNNPNmwP_sysnwwHaLZ&pid=Api",
+      "countries": [
+        "United States",
+        "Japan"
+      ],
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "release": "2023-04-05",
+      "director": "Aaron Horvath, Michael Jelenic",
+      "cast": [
+        "Chris Pratt",
+        "Anya Taylor-Joy",
+        "Jack Black"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "7",
+      "title": "Avatar: The Way of Water",
+      "rating": 7.6,
+      "time": 192,
+      "description": "Jake Sully and Neytiri have formed a family and are doing everything to stay together. They must leave their home and explore the regions of Pandora. When an old threat resurfaces, Jake must fight a difficult war against the humans.",
+      "imgUrl": "https://tse4.mm.bing.net/th?id=OIP.d7yaiDeQhtXLUj1DB2YPqQAAAA&pid=Api",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "release": "2022-12-16",
+      "director": "James Cameron",
+      "cast": [
+        "Sam Worthington",
+        "Zoe Saldaña",
+        "Sigourney Weaver"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "8",
+      "title": "Top Gun: Maverick",
+      "rating": 8.3,
+      "time": 130,
+      "description": "After thirty years, Maverick is still pushing the limits as a top naval aviator, but must confront the ghosts of his past when he trains a group of elite graduates for a dangerous mission.",
+      "imgUrl": "https://www.assignmentx.com/wp-content/uploads/2022/05/TOP-GUN-MAVERICK-movie-poster.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Drama"
+      ],
+      "release": "2022-05-27",
+      "director": "Joseph Kosinski",
+      "cast": [
+        "Tom Cruise",
+        "Jennifer Connelly",
+        "Val Kilmer"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "9",
+      "title": "Everything Everywhere All at Once",
+      "rating": 8,
+      "time": 139,
+      "description": "A Chinese-American woman discovers that she can access versions of herself from alternate universes, and she must use these newfound powers to stop a powerful being who threatens to destroy the multiverse.",
+      "imgUrl": "https://www.themoviedb.org/t/p/w440_and_h660_face/eTYBrL8lVcaG6AySocVe4eNltih.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "release": "2022-03-25",
+      "director": "Daniel Kwan, Daniel Scheinert",
+      "cast": [
+        "Michelle Yeoh",
+        "Jamie Lee Curtis",
+        "Ke Huy Quan"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "10",
+      "title": "The Batman",
+      "rating": 7.8,
+      "time": 176,
+      "description": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects back to his own family.",
+      "imgUrl": "https://www.themoviedb.org/t/p/original/gmU7P3FzGFsl2wiSDhx9znZCNub.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "release": "2022-03-04",
+      "director": "Matt Reeves",
+      "cast": [
+        "Robert Pattinson",
+        "Zoë Kravitz",
+        "Paul Dano"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "11",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "rating": 6.9,
+      "time": 126,
+      "description": "Doctor Strange must face the consequences of opening the multiverse as a new threat emerges.",
+      "imgUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/ca1b4e149215717.62e69741513f5.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "release": "2022-05-06",
+      "director": "Sam Raimi",
+      "cast": [
+        "Benedict Cumberbatch",
+        "Elizabeth Olsen",
+        "Chiwetel Ejiofor"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "12",
+      "title": "Thor: Love and Thunder",
+      "rating": 6.2,
+      "time": 118,
+      "description": "Thor enlists the help of Valkyrie, Korg, and his ex-girlfriend Jane Foster to fight Gorr the God Butcher, who seeks to eliminate all gods.",
+      "imgUrl": "https://lumiere-a.akamaihd.net/v1/images/p_thorloveandthunder_639_593cb642.jpeg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "release": "2022-07-08",
+      "director": "Taika Waititi",
+      "cast": [
+        "Chris Hemsworth",
+        "Natalie Portman",
+        "Christian Bale"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "13",
+      "title": "Inception",
+      "rating": 8.8,
+      "time": 148,
+      "description": "A thief who enters the dreams of others to steal secrets is given a chance to have his past crimes forgiven if he can successfully plant an idea into someone's subconscious.",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.YKRvIKrRWoYkmBAH0lmPuQHaK9&pid=Api",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Sci-Fi",
+        "Action",
+        "Adventure"
+      ],
+      "release": "2010-07-16",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "14",
+      "title": "Interstellar",
+      "rating": 8.6,
+      "time": 169,
+      "description": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
+      "imgUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/297acd129204217.616629e21fe76.png",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Sci-Fi",
+        "Drama",
+        "Adventure"
+      ],
+      "release": "2014-11-07",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "15",
+      "title": "The Dark Knight",
+      "rating": 9,
+      "time": 152,
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "imgUrl": "https://www.themoviedb.org/t/p/original/eP5NL7ZlGoW9tE9qnCdHpOLH1Ke.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "release": "2008-07-18",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Heath Ledger"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "16",
+      "title": "Avengers: Endgame",
+      "rating": 8.4,
+      "time": 181,
+      "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. The Avengers assemble once more to undo Thanos' actions and restore balance.",
+      "imgUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/e1c14446-b8b4-44be-9d0a-30ccc35f5a4f/1920x",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "release": "2019-04-26",
+      "director": "Anthony Russo, Joe Russo",
+      "cast": [
+        "Robert Downey Jr.",
+        "Chris Evans"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "17",
+      "title": "The Matrix",
+      "rating": 8.7,
+      "time": 136,
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "imgUrl": "https://avatars.mds.yandex.net/get-marketpic/12817301/pic9d765166b783ac3495fc38fd42acea5d/orig",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "release": "1999-03-31",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "18",
+      "title": "The Shawshank Redemption",
+      "rating": 9.3,
+      "time": 142,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "imgUrl": "https://i.ytimg.com/vi/oJo2TncQ3Z8/maxresdefault.jpg",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Drama"
+      ],
+      "release": "1994-09-23",
+      "director": "Frank Darabont",
+      "cast": [
+        "Tim Robbins",
+        "Morgan Freeman"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": "19",
+      "title": "Forrest Gump",
+      "rating": 8.8,
+      "time": 142,
+      "description": "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+      "imgUrl": "https://avatars.mds.yandex.net/get-marketpic/7762037/picea8cf370d8f0b8e61fb88d6d90bf9729/orig",
+      "countries": [
+        "United States"
+      ],
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "release": "1994-07-06",
+      "director": "Robert Zemeckis",
+      "cast": [
+        "Tom Hanks",
+        "Robin Wright"
+      ],
+      "videoUrl": ""
+    }
+  ]
+}
