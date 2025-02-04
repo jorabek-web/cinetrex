@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 
@@ -8,7 +9,8 @@ export const NotFound = () => {
             <h1 className="absolute top-2/4 left-2/4 -translate-2/4 text-[800px] font-bold text-[#504d4d2f] -z-0">404</h1>
             <div className="text-center absolute top-2/4 left-2/4 -translate-2/4 z-10">
                 <h1 className="text-[100px] font-bold text-[#B11226] border-b border-[#B11226]">Page Not Found</h1>
-                <p className="text-[24px] font-semibold text-white mt-6">{`Sorry, the page you're looking for doesn't exist.`}</p>
+                <p className="text-[24px] font-semibold text-white mt-6 pb-4">{`Sorry, the page you're looking for doesn't exist.`}</p>
+                <Link to={"/"} className="py-2 px-10 rounded-md bg-[#B11226] text-[20px] text-[#000000]" >RESET</Link>
             </div>
         </div>
     )
